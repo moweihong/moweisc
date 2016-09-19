@@ -1,0 +1,127 @@
+.bg_top{
+    width: 100%;
+    height: 765px;
+    background: url(../img/wyzq_bg01.jpg) top center scroll no-repeat;
+}
+.bg_middle {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    background: #342E2D;
+    line-height: 126px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.95;
+}
+.bg_bottom{
+    width: 100%;
+    height: 2739px;
+    background: url(../img/wyzq_bg02.jpg) top center scroll no-repeat;
+}
+.content1{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.bg_p1{
+	left: 525px; 
+    top: 126px; 
+}
+.bg_p2{
+	left: 555px;
+    top: 1022px;
+}
+.bg_bottom_last_p{
+	left: 555px;
+    top: 1990px;
+}
+.bg_bottom p{
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+
+.immediate_btn,.freeday_btn{
+    width: 374px;
+    height: 90px;
+    display: inline-block;
+    font-size: 47px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 74px;
+    cursor: pointer;
+    margin: 0 50px;
+}
+.immediate_btn{
+    background: url(../img/button_red.png) top  no-repeat;
+}
+.freeday_btn{
+    background: url(../img/button_blue.png) top  no-repeat;
+}
+.how_to_make_money{
+    width: 967px;
+    height: 423px;
+    line-height: 54px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    bottom: 153px;
+    left: 152px;
+}
+.how_to_make_money li{
+    width: 930px;
+    font-size: 18px;
+}
+#theFooter{
+    display: none;
+}
+.apply_bg{
+    width: 100px;
+    height: 26px;
+    display: inline-block;
+    background: #F03939;
+    vertical-align: middle;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.apply_bg span{
+    position: absolute;
+    top: -14px;
+    left: 8px;
+}
+.all_grey_bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 40;
+    opacity: 0.4;
+    top:0;
+    display: none;
+}
+.invite_reg{
+    width: 596px;
+    height: 124px;
+    background: #DE1A16;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -298px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    line-height: 124px;
+    border-radius: 10px;
+    box-shadow: -1px 5px 10px black;
+    display: none;
+    z-index: 41;
+}
+#close_login{
+    cursor: pointer;
+}

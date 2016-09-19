@@ -1,0 +1,778 @@
+.c_cloud_guide, .c_my_cart, .c_recharge, .c_person_center {
+    width: 1210px;
+    margin: 0 auto 70px;
+    color: #555;
+}
+.c_no_goods {
+    margin: 110px auto;
+    width: 580px;
+    overflow: hidden;
+}
+.catbox {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 0 0 40px;
+    width: 1202px;
+}
+.c_shop_bag h4, .c_popular_title, .c_order_info h4 {
+    margin: 10px 0px 10px 15px;
+}
+.catbox table {
+    text-align: center;
+    width: 100%;
+}
+.catbox table th {
+    background: #f2f2f2;
+    height: 26px;
+    color: #999;
+    font-size: 12px;
+}
+.c_goods_info .c_goods_text {
+    width: 50px;
+}
+.c_goods_text {
+    display: block;
+    padding-left: 10px;
+    text-align: center;
+    width: 100px;
+}
+.catbox table tbody tr:hover {
+    background: #f2f2f2;
+}
+.catbox table td {
+    padding: 10px;
+    color: #333;
+}
+.goods img {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    float: left;
+}
+.goods span {
+    width: 320px;
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+}
+.goods span a:hover {
+    color: #dd2726;
+}
+.c_goods_price {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #999;
+}
+.c_goods_price i {
+    color: #dd2726;
+}
+.catbox table .w_price {
+    color: #dd2726;
+}
+.catbox table th, .catbox table td {
+    border-bottom: 1px solid #ddd;
+}
+.w_one_new {
+    position: relative;
+}
+.count .add, .count .reduce, .w_one .w_pre, .w_one .w_next {
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    border: 1px solid #ddd;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 28px;
+    color: #999999;
+    font-size: 16px;
+}
+.count .add, .count input, .count .reduce, .w_one .w_pre, .w_one input, .w_one .w_next {
+    float: left;
+    margin-right: -1px;
+    position: relative;
+    z-index: 0;
+}
+.count input, .w_one input {
+    width: 68px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.catbox table .subtotal {
+    color: #dd2726;
+    font-weight: normal;
+}
+.delete {
+    display: block;
+    cursor: pointer;
+}
+.goods {
+    width: 486px;
+}
+.catbox table th, .catbox table td {
+    border-bottom: 1px solid #ddd;
+}
+.subtotal {
+    width: 160px;
+    color: red;
+    font-weight: bold;
+}
+.c_no_left {
+    float: left;
+    width: 280px;
+    margin-right: 40px;
+}
+.c_no_left p {
+    font-size: 30px;
+    color: #666666;
+    margin: 60px 0 22px;
+}
+.c_quick_shop {
+    display: block;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background: #dd2726;
+    text-align: center;
+    line-height: 40px;
+}
+
+.c_no_right {
+    float: left;
+    width: 256px;
+}
+.c_no_right img {
+    width: 114px;
+    height: 133px;
+    margin-top: 60px;
+    margin-left: 62px;
+}
+.c_order_total {
+    padding-bottom: 10px;
+}
+.c_total {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    color: #666;
+    height: 48px;
+    position: relative;
+}
+.c_total div, .c_total a {
+    line-height: 48px;
+    height: 48px;
+}
+.c_total_text {
+    font-size: 14px;
+    color: #333;
+}
+.c_total .total {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.total {
+    font-size: 24px;
+    color: #dd2726;
+}
+.w_popup_window {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0px 0px 20px;
+}
+.w_popup_window a {
+    color: #dd2726;
+    margin-left: 4px;
+}
+.c_user_reduce {
+    height: 50px;
+    line-height: 40px;
+    /*border-bottom: 1px dotted #ddd;*/
+    color: #999;
+    padding: 0px 10px;
+}
+.c_user_reduce input {
+    margin-right: 6px;
+}
+.c_order_select {
+    float: right;
+    margin-top: 16px;
+    margin-right: 870px;
+}
+.select_box {
+    position: relative;
+}
+.c_order_select .select_showbox {
+    border: 1px solid #dd2726;
+}
+.c_order_select .select_showbox {
+    background: rgba(0, 0, 0, 0) url("../img/order_select.jpg") no-repeat scroll 90px 0;
+    border: 1px solid #ffbca1;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    width: 105px;
+}
+.c_order_select .select_showbox {
+    border: 1px solid #dd2726;
+}
+.select_showbox {
+    border: 1px solid #ccc;
+    color: #333;
+    width: 125px;
+    height: 34px;
+    padding-left: 5px;
+    background: url(../img/sel.png) no-repeat 96px 0;
+    line-height: 34px;
+    font-size: 12px;
+}
+.c_account_enougth {
+    margin: 26px 0 80px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.c_no_enougth {
+    float: left;
+}
+.c_inter_bank {
+    float: right;
+}
+.c_pay_way i, .c_select_money i {
+    float: left;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 10px;
+}
+.c_pay_way .c_pay_this, .c_pay_bank dd .c_pay_this, .c_select_money .c_pay_this {
+    border-color: #dd2726;
+}
+.c_pay_margin li {
+    margin-bottom: 20px;
+}
+.c_pay_way li, .c_select_money li {
+    float: left;
+    width: 148px;
+    height: 48px;
+    border: 2px solid #e3e3e3;
+    position: relative;
+    overflow: hidden;
+    margin-right: 13px;
+    text-align: center;
+    line-height: 48px;
+}
+.c_pay_way .c_pay_this span, .c_pay_bank dd .c_pay_this span, .c_select_money .c_pay_this span {
+    background: url(../img/this.png) no-repeat;
+}
+.c_pay_way li span, .c_pay_bank dd li span, .c_select_money li span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(../img/all.png) no-repeat right bottom;
+}
+.c_pay_margin li {
+    margin-bottom: 20px;
+}
+.c_paypal {
+    background: url(../img/pay_text.png) no-repeat 24px 8px;
+    background-size: 35px 35px;
+}
+.c_unionpay {
+    background: url(../img/yl.png) no-repeat 24px 8px;
+    background-size: 35px 35px;
+}
+.c_jdpay {
+    background: url(../img/jd.png) no-repeat 16px 8px;
+    background-size: 35px 35px;
+}
+.c_kik_icon {
+    background: url(../img/kik.png) no-repeat 24px 8px;
+}
+.tab_btn_cz {
+    width: 978px;
+    background: #f6f5f5;
+    margin-left: 80px;
+    clear: both;
+    border: 1px solid #DFDFDF;
+    display: none;
+}
+.tab_btn_cz ul.payment {
+    clear: both;
+    width: 900px;
+    padding: 20px 39px 0;
+    overflow: hidden;
+    display: none;
+}
+.tab_btn_cz ul.payment li.top {
+    padding-bottom: 20px;
+    width: 900px;
+}
+.tab_btn_cz ul.payment li {
+    float: left;
+}
+.tab_btn_cz ul.payment li input {
+    display: block;
+    float: left;
+    margin: 12px 10px 0 0;
+}
+.c_recharge_remind {
+    width: 434px;
+    height: 268px;
+    border: 8px solid #b1b1b1;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    border: 5px solid #999;
+    border-radius: 4px;
+}
+.c_shop_bag h4, .c_popular_title, .c_order_info h4 {
+    margin: 10px 0px 10px 15px;
+}
+.c_shop_bag h4, .c_popular_title, .c_order_info h4 {
+    font-size: 24px;
+    color: #333;
+    margin: 30px 0 14px 0;
+}
+.c_update_title {
+    font-size: 14px;
+    width: 406px;
+    margin: 0 auto;
+    line-height: 40px;
+    border-bottom: 1px solid #EBEBEB;
+
+}
+.c_recharge_remind p {
+    padding-left: 56px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.c_pay_remind {
+    margin: 24px 0 16px;
+    color: #dd2726;
+}
+.c_remind_btn {
+    margin-top: 16px;
+}
+.c_remind_btn a {
+    display: inline-block;
+    width: 124px;
+    margin-right: 56px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background-color: #919191;
+}
+.c_qq_close {
+    position: absolute;
+    width: 34px;
+    height: 38px;
+    background: url(../img/close.png) no-repeat;
+    right: -16px;
+    top: -16px;
+}
+.c_remind_bj {
+    display: none;
+    background: #000;
+    opacity: 0.6;
+    filter: Alpha(Opacity=60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.c_qq_detail, .c_update_tel {
+    display: none;
+    z-index: 10;
+    background: #fff;
+    position: fixed;
+    width: 435px;
+    height: 284px;
+    border: 5px solid #999;
+    border-radius: 4px;
+}
+.c_update_tel {
+    height: auto;
+}
+.c_form_update {
+    width: 272px;
+    margin: 28px auto 0;
+}
+.c_tel_next {
+    display: block;
+    margin: 40px auto 34px;
+    width: 154px;
+    height: 36px;
+    background: #dd2726;
+    color: #fff;
+    border-bottom: 2px solid #dd2726;
+    line-height: 38px;
+    text-align: center;
+}
+
+.w_pay_protocal {
+    margin: 20px 0 0;
+    text-align: right;
+    width: 100%;
+}
+.c_pay_protocal {
+    display: inline-block;
+    margin: 70px 0 0 20px;
+    cursor: default;
+    margin-left: -4px;
+    font-size: 15px;
+}
+.c_pay_protocal input {
+    margin-right: 6px;
+}
+.c_pay_protocal i {
+    color: #dd2726;
+    cursor: pointer;
+}
+.c_total_back {
+    float: right;
+    margin-right: 10px;
+}
+.c_total_back a {
+    display: block;
+    height: 44px;
+    text-align: center;
+    float: left;
+    line-height: 44px;
+}
+.c_total_pay {
+    margin-top: 40px;
+}
+.c_total_back .c_account_btn, .c_total_back .c_recharge_btn, .c_record_btn {
+    width: 200px;
+    background: #dd2726;
+    color: #fff;
+}
+.clear {
+    clear: both;
+}
+.w_miss_problem {
+    margin: 50px 30px 0px;
+}
+#deleteAll {
+    width: auto;
+    margin: 0;
+    background: none;
+}
+.c_total div, .c_total a {
+    line-height: 48px;
+    height: 48px;
+}
+.fl {
+    float: left;
+}
+.c_total .select-all {
+    width: 100px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 26px;
+    color: #666;
+}
+.c_pay_icon {
+    background: url(../img/pay.png) no-repeat 24px 8px;
+}
+.c_wy_icon a {
+    background: rgba(0, 0, 0, 0) url("../img/wy.jpg") no-repeat scroll 6px center;
+    display: block;
+    float: right;
+    height: 100%;
+    padding-left: 12px;
+    width: 120px;
+}
+i, b {
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+.c_address_window {
+    display: none;
+    position: absolute;
+    width: 918px;
+    height: 520px;
+    background-color: #fff;
+    z-index: 10;
+}
+.c_address_bj {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    opacity: 0.6;
+    filter: Alpha(Opacity=60);
+    z-index: 9;
+}
+.c_pay_bj {
+    display: none;
+    width: 100%;
+    z-index: 8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    opacity: 0.6;
+    filter: Alpha(Opacity=60);
+}
+.c_pay_wait {
+    display: none;
+    z-index: 10;
+    background: #fff;
+    position: fixed;
+    width: 435px;
+    height: 284px;
+    border: 5px solid #999;
+    border-radius: 4px;
+}
+#Contract {
+    display: none;
+    opacity: 1;
+    background: #fff;
+    z-index: 2000;
+    position: fixed;
+    width: 800px;
+    font-size: 14px;
+    border: 5px solid #999;
+    border-radius: 4px;
+}
+.modal.fade.in {
+    top: 10%;
+}
+#presellWindow {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #999;
+    border-radius: 4px;
+    display: none;
+    font-size: 14px;
+    opacity: 1;
+    position: fixed;
+    width: 800px;
+    z-index: 2000;
+}
+*/
+
+
+/*add by peasant*/
+.g_mask {
+	position: fixed;
+	z-index: 91110;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#1E000000',endColorstr='#1E000000')
+}
+
+:root .g_mask {
+	filter: none;
+	background-color: rgba(0,0,0,.2)
+}
+
+.g_popWarp {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	z-index: 91111
+}
+
+.g_popBg {
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#1E000000',endColorstr='#1E000000')
+}
+
+:root .g_popBg {
+	filter: none;
+	background-color: rgba(0,0,0,.2)
+}
+
+.g_popBg .g_popBgFff {
+	padding: 10px 20px
+}
+
+.g_popBg .imgBtn {
+	padding: 0 18px
+}
+
+.g_p5 {
+	padding: 5px
+}
+.pop_loading__300 {
+	width: 340px;
+	font-size: 14px;
+	margin-top:180px
+}
+
+.pop_loading__300 .com_loading {
+	padding: 20px 0
+}
+.g_popBgFff {
+	background-color: #fff
+}
+.g_popBg .g_popBgFff {
+	padding: 10px 20px
+}
+.pop_loading .g_popBgFff {
+	text-align: center;
+	padding: 10px 0
+}
+.pop__video .g_popBgFff {
+	padding: 0;
+	position: relative
+}
+.pop_text .g_popBgFff {
+	padding: 10px 20px 16px 55px;
+	position: relative
+}
+.pop_text__follow .g_popBgFff {
+	padding-left: 20px
+}
+.pop_noticeway .g_popBgFff {
+	padding-bottom: 22px
+}
+.pop_cart .g_popBgFff {
+	position: relative
+}
+.pop_missing .g_popBgFff {
+	position: relative;
+	padding: 10px 0
+}
+
+.com_loading {
+	text-align: center;
+	padding: 40px 0;
+	color: #666
+}
+
+.com_loading img {
+	padding-bottom: 10px
+}
+.pop_bankingPay,.pop_cancellation {
+	width: 382px;
+	margin-top:180px
+}
+.g_popTit {
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #f1f1f1
+}
+
+.g_popTit .pt_txt {
+	padding-left: 8px;
+	font-size: 14px
+}
+.pop_noticeway .g_popTit {
+	height: 26px;
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 8px
+}
+.pop_missing .g_popTit {
+	margin-bottom: 0
+}
+
+.pop_missing .g_popTit .pt_txt {
+	padding-left: 28px
+}
+.g_popColse {
+	display: block;
+	position: absolute;
+	right: 3px;
+	bottom: 15px;
+	width: 28px;
+	height: 13px;
+	z-index: 3
+}
+
+.g_popColse:hover {
+	background-position: -166px 0
+}
+.pop__video .g_popColse {
+	position: absolute;
+	right: -18px;
+	top: -18px;
+	width: 33px;
+	height: 33px;
+	background-position: -136px -217px
+}
+.pop_cart .g_popColse {
+	top: 15px;
+	right: 28px
+}
+.pop_missing .g_popColse {
+	right: 28px;
+	bottom: 15px
+}
+.s-checkbox,.icon_error,.icon_correct,.p__or,.icon__cart,.icon__correct_big {
+	background: url(../img/icon-tips.png) no-repeat
+}
+.pop_missing .g_popTit .pt_txt {
+	padding-left: 28px
+}
+.g_popTit .pt_txt {
+	padding-left: 8px;
+	font-size: 14px;
+	font-weight:bold;
+	color:#000
+}
+.p_bkp_box {
+	position: relative;
+	padding: 18px 0 20px 35px
+}
+
+.p_bkp_box .icon_error {
+	margin-left: -28px;
+	margin-right: 10px
+}
+
+.p_bkp_box .tip {
+	color: #999;
+	margin-bottom: 5px
+}
+
+.p_bkp_box p {
+	padding: 6px 0
+}
+
+.p_bkp_box p a {
+	color: #0a8cd2
+}
+.p_cancellation_btn .tip {
+	padding-left: 14px;
+	color: #999
+}
+.icon_error {
+	position: relative;
+	top: 4px;
+	margin-right: 5px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background-position: -1px -57px
+}
+.p_bkp_box .icon_error {
+	margin-left: -28px;
+	margin-right: 10px
+}
+.pop_text .icon_error {
+	margin-left: -27px
+}
+.pop_text__follow .icon_error {
+	margin-left: 0
+}
+ 

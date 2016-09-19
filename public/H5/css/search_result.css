@@ -1,0 +1,97 @@
+@media screen and (min-width: 414px) {
+    html{
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 414px) {
+    html{
+        font-size: 100px;
+    }
+}
+.phone-img{
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    text-align: center;
+    vertical-align: top;
+}
+.phone-img img{
+    width: 80%;
+}
+.phone-desc p a{
+    color: #555555;
+}
+p{
+    display: inline-block;
+}
+.phone-desc{
+    width: 64%;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: .05rem;
+}
+.process-bar-bg{
+    width: 100%;
+    height: 5px;
+    border-radius: 20px;
+    background: #FEC5CD;
+    position: relative;
+}
+.inner-process-bar-bg{
+    max-width: 100%;
+    width: 50%;
+    height: 4px;
+    border-radius: 20px;
+    background: #E63955;
+    display: inline-block;
+    position: absolute;
+}
+.s-car{
+    width: 10%;
+    display: inline-block;
+    vertical-align: 20px;
+    margin-left: .15rem;
+}
+.s-car img{
+    width: 100%;
+    display: inline-block;
+}
+
+.mui-bar {
+    background: white;
+}
+.mui-bar a{
+    color: grey;
+    font-size: 0.15rem;
+}
+.display-item{
+    padding-top: 10px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.display-item p{
+    font-size: .1rem;
+    line-height: 14px;
+}
+.phone-desc span{
+    width: 50%;
+    display: inline-block;
+    font-size: .1rem;
+    color: #919191;
+}
+.phone-desc span:nth-child(2){
+    text-align: right;
+}
+.phone-desc span i{
+    color: #EE8192;
+}
+.phone-desc div{
+    margin-top: -15px;
+}
+
+.mui-bar-nav.mui-bar .mui-icon{
+    color: grey;
+}
+
+.mui-content{
+    background: white;
+}

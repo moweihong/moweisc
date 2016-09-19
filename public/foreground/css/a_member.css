@@ -1,0 +1,763 @@
+@charset "utf-8";
+body{min-width:1210px;background: #ffffff;position: relative;}
+/*S 资金管理*/
+.b_choose.a_choose{
+	overflow: visible;
+}
+.a_record_table table{
+	width: 960px;
+}
+/*S 充值明细*/
+.a_clear{
+	clear: both;
+}
+.a_select_choose{
+	float: left;
+	height: 24px;
+	margin-left: 13px;
+}
+.a_margin_num{
+	margin-bottom: 18px;
+}
+.a_select_choose ul{
+	float: left;
+	display: block;
+	width: 112px;
+	background: #f5f5f5;
+	border-top: 1px solid #e6e6e6;
+	border-radius: 2px;
+	text-align: center;
+	position: relative;
+}
+.a_select_choose ul li{
+	cursor: pointer;
+	width: 110px;
+	height: 21px;
+	background: #f5f5f5;
+	color: #555555;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #e6e6e6;
+	border-top: 0px;
+}
+.a_select_choose ul li.a_select_detail{
+	display: none;
+}
+.a_select_choose em{
+	float: left;
+	color: #333333;
+	padding: 0px 7px;
+}
+.a_select_choose ul i{
+	display: block;
+	position: absolute;
+	width: 0px;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-top: 5px solid #b3b3b3;
+	right: 10px;
+	top: 9px;
+}
+.a_choose_cal{
+	padding-right: 72px;
+}
+.b_choose_cal .b_choose_search.a_choose_search{
+	position: relative;
+	top: -20px;
+	margin-left: 22px;
+}
+.a_record_table .b_part_title{
+	border: 1px solid #e4e4e4;
+}
+.a_record_table .b_part_title th{
+	padding: 0px;
+	line-height: 34px;
+	height: 34px;
+	background: #f3f3f3;
+	font-size: 12px;
+	color: #333333;
+}
+.a_record_table td a.b_color{
+	color: #dd2726;
+	display: block;
+}
+.a_record_table td span{
+	font-size: 12px;
+}
+.b_record_table.a_record_table td.a_record_span{
+	padding: 10px 0px;
+}
+.b_record_table.a_record_table td{
+	padding: 7px 0px;
+	line-height: 22px;
+	min-height: 59px;
+}
+.a_record_table .b_th1{
+	width:212px;
+}
+
+.a_record_table .b_th3{
+	width:160px;
+}
+.a_record_table .b_th4{
+	width:250px;
+}
+.a_record_table .b_th5{
+	width:200px;
+}
+.a_record_table .b_th6{
+	width:190px;
+}
+/*E 充值明细*/
+/*S 购物卡充值明细*/
+.a_record_table.b_record_table td.a_td7{
+	position: relative;
+}
+.a_record_table.b_record_table td.a_td7 img.a_bj_td7{
+	width: 24px;
+	height: 12px;
+	display: block;
+	padding: 0px 25px;
+	border: 0px;
+}
+.a_record_table.b_record_table td.a_td7 .a_td7_box{
+	position: absolute;
+	right: 5px;
+	top: 43px;
+	z-index: 1;
+	height: 28px;
+	width: auto;
+	border: 1px solid #fedd98;
+	background: #fffbe3;
+	border-radius: 3px;
+	display: none;
+}
+.a_record_table.b_record_table td.a_td7 .a_td7_box i{
+	display: block;
+	position: absolute;
+	right: 24px;
+	top: -8px;
+	width: 13px;
+	height: 8px;
+	background: url(/static/new/img/icon/shop_icon_ts_t.png) no-repeat;
+}
+.a_record_table.b_record_table td.a_td7 .a_td7_box p{
+	color: #555555;
+	font-size: 12px;
+	line-height: 28px;
+	padding: 0 12px;
+	white-space: nowrap;
+}
+/*E 购物卡充值明细*/
+/*S 消费明细*/
+.a_light_gray{
+	color: #666666;
+}
+.b_record_table.a_consume_table_width table{
+	width: 950px;
+}
+/*E 消费明细*/
+
+/*S 资金明细*/
+.a_record_table .b_th12{
+	width:160px;
+}
+.a_record_table .b_th22{
+	width:170px;
+}
+.a_record_table td.a_td_over p{
+	width: 200px;
+	overflow: hidden;
+	height: 22px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break:break-word;
+}
+.a_record_table td.a_td_over1 p{
+	width:320px;
+}
+.a_record_table.a_record_table1 td{
+	padding: 18px 0px;
+}
+/*E 资金明细*/
+/*E 资金管理*/
+
+/*S 我的积分*/
+.b_cloud_goods.a_cloud_goods{
+	position: relative;
+}
+.b_cloud_goods.a_cloud_goods span{
+	margin-right: 13px;
+	cursor: auto;
+}
+.b_cloud_goods.a_cloud_goods b{
+	cursor: auto;
+}
+.a_cloud_goods span.a_task_progress{
+	display: inline-block;
+	width: 180px;
+	height: 8px;
+	background: #eed3b6;
+	border-radius:4px; 
+	margin-right: 0px;
+}
+.a_cloud_goods .a_task_progress i{
+	display: inline-block;
+	height: 8px;
+	border-radius:4px; 
+	background: #dd2726;
+}
+.b_cloud_goods.a_cloud_goods a.a_score_exchange{
+	position: absolute;
+	color: #ffffff;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	width: 72px;
+	text-align:center;
+	background: #dd2726;
+	right: 6px;
+	top: 6px;
+}
+.a_record_table.a_record_table_width{
+	/* margin: 0px 18px; */
+	overflow:hidden;
+}
+.a_record_table.a_record_table_width table{
+	/* width: 922px; */
+}
+.a_record_table .b_part_title th.b_th2_score,.a_record_table .b_part_title th.b_th6_score,.a_record_table .b_part_title th.b_th3_score{
+	width: 110px;
+}
+.a_record_table .b_part_title th.b_th1_score,.a_record_table .b_part_title th.b_th4_score,.a_record_table .b_part_title th.b_th5_score{
+	width: 150px;
+}
+/*E 我的积分*/
+
+/*S 任务中心*/
+.a_record_title a{
+	position: relative;
+}
+.a_record_title a span{
+	position: absolute;
+	padding: 0 8px;
+	background: #dd2726;
+	display: inline-block;
+	height: 18px;
+	line-height: 17px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 8px;
+	right: 5px;
+	top: 5px;
+}
+.a_cloud_goods span em{
+	color: #555;
+	font-style: normal;
+}
+.a_task_content dl{
+padding-left: 23px;
+overflow: hidden;
+position: relative;
+}
+.a_task_content dl dd{
+	padding-left: 89px;
+	background-color:#f2f2f2;
+	width: 346px;
+	height: 149px;
+	float: left;
+	margin: 0px 10px 32px; 
+	background-repeat: no-repeat;
+	background-position: 25px 26px;
+}
+.a_task_content dl dd.a_sign_dd{
+	background-image: url(/static/new/img/icon/a_sign_dd.png);
+}
+.a_task_content dl dd.a_email_dd{
+	background-image: url(/static/new/img/icon/a_email_dd.png);
+}
+.a_task_content dl dd.a_users_dd{
+	background-image: url(/static/new/img/icon/a_users_dd.png);
+}
+.a_task_content dl dd.a_wx_dd{
+	background-image: url(/static/new/img/icon/a_wx_dd.png);
+}
+.a_task_content dl dd.a_shop_dd{
+	background-image: url(/static/new/img/icon/a_shop_dd.png);
+}
+.a_task_content dl dd.a_generalize_dd{
+	background-image: url(/static/new/img/icon/a_generalize_dd.png);
+}
+.a_task_content dl dd.a_microblog_dd{
+	background-image: url(/static/new/img/icon/a_microblog_dd.png);
+}
+.a_task_content dl dd.a_space_dd{
+	background-image: url(/static/new/img/icon/a_space_dd.png);
+}
+.a_task_content dl dd.a_client_dd{
+	background-image: url(/static/new/img/icon/a_client_dd.png);
+}
+.a_task_content dl dd h3{
+	color: #555555;
+	font-size: 16px;
+	padding-top: 13px;
+	line-height: 34px;
+}
+.a_task_content dl dd p{
+	line-height: 26px;
+	width: 334px;
+	color: #555555;
+	font-size: 12px;
+	height: 52px;
+}
+.a_task_content dl dd .a_task_dl_bottom{
+	position: relative;
+	overflow: hidden;
+	width: 334px;
+}
+.a_task_content dl dd .a_task_dl_bottom span{
+	color: #dd2726;
+	font-size: 14px;
+	line-height: 30px;
+	float: left;
+	display: block;
+	max-width: 234px;
+}
+.a_task_content dl dd .a_task_dl_bottom a{
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background: #dd2726;
+	width: 82px;
+	border-radius: 3px;
+	font-size: 14px;
+	float: right;
+}
+.a_task_content dl dd .a_task_dl_bottom a.a_old_accomplish{
+	background: #d1d1d1;
+}
+/*app弹窗*/
+.c_recharge_remind.a_task_app_box{
+	height: auto;
+	width: 500px;
+}
+.c_recharge_remind.a_task_app_box img.a_task_app{
+	width: 208px;
+	height: 208px;
+	display: block;
+	margin:30px auto 0;
+}
+.c_recharge_remind.a_task_app_box p.a_task_p{
+	text-align: center;
+	line-height: 64px;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+/*E 任务中心*/
+
+
+/*---------2015 9 21 华丽丽的分割线--------------*/
+
+/*S 邀请好友*/
+/*S 去邀请好友*/
+.a_invite_link{
+	padding: 51px 0px 0px 126px; 
+	height: 42px;
+	color: #555555;
+}
+.a_invite_link em{
+	display: inline-block;
+	line-height: 42px;
+	font-size: 14px;
+	padding-right: 20px;
+}
+.a_invite_link span{
+	display: inline-block;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	line-height: 40px;
+	padding: 0px 65px 0px 27px;
+}
+.a_invite_link_share{
+	width: 856px;
+	height: 81px;
+	border: 1px solid #e8e8e8;
+	margin:29px auto 0;
+	position: relative;
+	padding-left: 7px;
+}
+.a_invite_share_list{
+	float: left;
+	width: 260px;
+	position: relative;
+	margin: 16px 12px 0px;
+}
+.a_invite_share_list span{
+	display: block;
+	width: 264px;
+	height: 53px;
+	cursor: pointer;
+}
+.a_invite_share_click.a_invite_share_qq span{
+	z-index: 2;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.a_invite_share_qq span{
+	background: url(../img/member/invite_icon1.png) no-repeat;
+}
+.a_invite_share_wx span{
+	background: url(../img/member/invite_icon2.png) no-repeat;
+}
+.a_invite_share_dx span{
+	background: url(../img/member/invite_icon3.png) no-repeat;
+}
+.a_invite_share_list .a_invite_share_click_down{
+	display: none;
+}
+.a_invite_share_wx .a_invite_share_click_down{
+	position: absolute;
+	z-index: 1;
+	width: 250px;
+	height: 250px;
+	background: #38db53;
+	left: 5px;
+	top: 50px;
+	box-shadow: 0px 2px 3px #ccc;
+}
+.a_invite_share_wx .a_invite_share_click_down img{
+	width: 217px;
+	height: 217px;
+	display: block;
+	margin: 16px auto 0;
+}
+.a_invite_share_dx .a_invite_share_click_down{
+	position: absolute;
+	z-index: 1;
+	width: 247px;
+	height: 298px;
+	background: #ffffff;
+	left: 5px;
+	top: 50px;
+	box-shadow: 0px 2px 3px #ccc;
+	border: 1px solid #ddd;
+}
+.a_invite_share_dx .a_invite_share_click_down .a_share_dx_p{
+	color: #999999;
+	font-size: 12px;
+	line-height: 22px;
+	border: 1px solid #e8e8e8;
+	width: 204px;
+	height: 118px;
+	word-wrap: break-word;
+	padding: 7px 7px 0px 9px;
+	margin: 10px auto 0px;
+}
+.a_invite_share_click_down input{
+	border: 1px solid #e8e8e8;
+	margin-left: 12px;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 210px;
+	height: 36px;
+}
+.a_invite_share_click_down label em{
+	display: inline-block;
+	position: relative;
+	box-shadow: none;
+	width: 99px;
+	height: 36px;
+	border: 1px solid #e8e8e8;
+	top: 4px;
+	cursor: pointer;
+}
+.a_invite_share_click_down form a{
+	display: block;
+	width: 222px;
+	height: 38px;
+	background: #00bf20;
+	line-height: 38px;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	margin: 10px auto 0px;
+}
+.a_invite_share_click_down input.a_invite_share_click_down_input{
+	width: 105px;
+}
+.a_invite_share_click_down input
+.a_invite_share_dx span{
+	background: url(/static/new/img/icon/invite_icon3.png) no-repeat;
+}
+#a_invite_share_qq .bdshare-button-style0-16 a, #a_invite_share_qq .bdshare-button-style0-16 .bds_more{
+	width: 264px !important;
+	height: 53px !important;
+	background: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.a_invite_font h2{
+	color: #555555;
+	font-size: 24px;
+	border-bottom: 1px solid #e8e8e8;
+	height: 60px;
+	padding-top: 22px;
+	line-height: 60px;
+	margin: 0px 20px 8px;
+	font-weight: normal;
+}
+.a_invite_font p{
+	color: #555555;
+	font-size: 14px;
+	line-height: 34px;
+	padding-left: 45px;
+}
+.a_invite_font p.a_invite_font1{
+	padding-left: 74px;
+}
+.a_invite_font p.a_invite_font2{
+	padding-left: 89px;
+}
+/*.a_withdraw_transfer_box{
+	display: none;
+}*/
+.a_withdraw_success_box p{
+	color: #777777;
+	font-size: 14px;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: center;
+}
+.a_withdraw_bank_no_box p,.a_users_attestation p{
+	color: #333333;
+	font-size: 16px;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: center;
+	padding-top: 50px;
+}
+a.c_exchange_ture_bank_no,a.a_transfer_ture,a.a_withdraw_ing_ture,a.a_transfer_ing_ture{
+	display: block;
+	width: 124px;
+	margin-right: 56px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	background-color: #dd2726;
+	border-bottom: 2px solid #dd2726;
+	margin: 50px auto 0;
+}
+.c_recharge_remind.a_withdraw_bank{
+	height: 360px;
+}
+.a_withdraw_bank_form{
+	padding-left: 68px;
+  	margin-top: 15px;
+}
+.a_transfer_bank .a_withdraw_bank_form{
+	margin-top: 35px;
+}
+.a_withdraw_transfer_box{
+	display: none;
+}
+.c_recharge_remind.a_withdraw_bank{
+	width: 560px;
+}
+.c_recharge_remind.a_withdraw_transfer_box .c_form_con{
+	width: 493px;
+}
+.c_recharge_remind.a_withdraw_transfer_box .c_form_con .c_form_right{
+	width: 390px;
+}
+.a_withdraw_transfer_box .c_form_right li .select_showbox{
+	width: 297px;
+	background: url(/static/new/img/icon/sel.png) no-repeat 273px 0;
+}
+.a_withdraw_transfer_box  .c_form_right li .select_box ul{
+	width: 306px;
+}
+.a_withdraw_transfer_box  .c_form_right li .select_box ul li{
+	  width: 296px;
+}
+.a_withdraw_transfer_box .b_color{
+	font-size: 14px;
+}
+.c_recharge_remind.a_withdraw_transfer_box p{
+	padding-left: 0px;
+}
+.c_recharge_remind.a_withdraw_transfer_box p.c_error{
+	padding-left: 20px;
+	line-height: 30px;
+}
+.a_withdraw_transfer_box .c_form_con .c_form_right .c_veri_code{
+	width: 110px;
+}
+/*E 去邀请好友*/
+/*S 佣金来源*/
+.b_cloud_goods.a_cloud_goods a.a_score_exchange.a_invite_btn{
+	right: 92px;
+}
+/*E 佣金来源*/
+
+
+/*S 我的银行卡*/
+.user-mybanklist{
+	overflow: hidden;
+}
+.user-mybanklist .a_bank_card_list{
+	float: left;
+	width: 228px;
+	height: 130px;
+	margin: 35px 22px 30px;
+	border: 1px solid #d7dadb;
+	border-radius: 10px;
+}
+.user-mybanklist .a_bank_card_list a{
+	display: block;
+	color: #555555;
+	font-size: 14px;
+	text-align: center;
+}
+.user-mybanklist .a_bank_card_list a.a_bank_card_img{
+	padding-top: 15px;
+	height: 82px;
+	margin-bottom: 4px;
+}
+.user-mybanklist .a_bank_card_list a.a_bank_card_img img{
+	display: block;
+	width: 123px;
+	height: 39px;
+	margin: 0 auto;
+}
+.mycard-no{
+	color: #555555;
+	font-size: 14px;
+	line-height: 38px;
+	display: block;
+}
+.a_bank_card_del{
+	height: 28px;
+	line-height: 28px;
+	border-top: 1px solid #dddddd;
+}
+.a_bank_add_a{
+	display: block;
+	float: left;
+	width: 228px;
+	height: 130px;
+	border: 1px dashed #c6c6c6;
+	border-radius: 10px;
+	margin-top: 35px;
+	margin-left: 22px;
+}
+.a_bank_add_a a{
+	display: block;
+	padding-left: 30px;
+	width: 198px;
+	height: 130px;
+	background: url(../img/member/bank_card_add.png) no-repeat 50px center;
+	color: #000000;
+	font-size: 14px;
+	line-height: 130px;
+	text-align: center;
+}
+.user-mybanklist .a_record_list_bank_tit{
+	padding-left: 18px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #fedd98;
+	background: #fffbe3;
+	font-size: 12px;
+	color: #555555;
+	width: 888px;
+	margin: 20px auto 0px;
+}
+.a_record_bank_list{
+	display: none;
+}
+/*E 我的银行卡*/
+/*添加银行卡 银行列表*/
+.a_record_bank_add .a_bank_card_add_title{
+	color: #555555;
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 30px;
+	padding-left: 26px;
+	margin-top: 10px;
+}
+.a_record_bank_add .a_bank_card_add_list{
+	width: 760px;
+	height: 316px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-left: 85px;
+}
+.a_record_bank_add .a_bank_card_add_list li{
+	width: 148px;
+	height: 48px;
+	border: 1px solid #dcdcdc;
+	float: left;
+	margin-left: 34px;
+	margin-bottom: 29px;
+	position: relative;
+}
+.a_record_bank_add .a_bank_card_add_list li span{
+	width: 15px;
+	height: 15px;
+	display: block;
+	background: url(/static/new/img/icon/bank_click_li.jpg) no-repeat;
+	position: absolute;
+	z-index: 1;
+	right: 0px;
+	bottom: 0px;
+	display: none;
+}
+.a_record_bank_add .a_bank_card_add_title em{
+	color: #dd2726;
+	font-style: normal;
+}
+.a_record_bank_add .a_bank_card_add_list li.a_bank_click_li{
+	border: 1px solid #0697da;
+	
+}
+.a_record_bank_add .a_bank_card_add_list li.a_bank_click_li span{
+	display: block;
+}
+.bank_card_right .a_investor_bank_title{
+	color: #333333;
+	font-size: 18px;
+	border-bottom: 1px solid #dddddd;
+	line-height: 38px;
+	padding-top: 12px;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+.a_address.c_address{
+	padding-left: 30px;
+}
+.c_form_con{
+	position: relative;
+}
+.a_ts_bank{
+	color: #555555;
+	font-size: 14px;
+	line-height: 42px;
+	padding-left: 98px;
+}
+.a_ts_bank span{
+	color:#dd2726;
+}
+.c_form_con .c_form_right .c_details_contact.a_details_contact{
+	width: 216px;
+}
+/*添加银行卡 表单*/
+
+/*E 添加银行卡*/
+/*E 邀请好友*/
+

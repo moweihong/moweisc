@@ -1,0 +1,91 @@
+@media screen and (max-width: 414px){
+    html {
+        font-size: 100px;
+    }
+}
+@media screen and (min-width: 415px){
+    html {
+        font-size: 150px;
+    }
+}
+
+.share-top{
+    width: 100%;
+    height:1.1rem ;
+    background: url("../images/share-bg.png") no-repeat;
+    background-size: 100%;
+    padding-top: .24rem;
+}
+.share-top i{
+    display: inline-block;
+    width: 28%;
+    height:100%;
+    text-align: center;
+}
+.share-top img{
+    width: 60px;
+    height: 60PX;
+    BORDER-RADIUS: 50%;
+}
+.share-top div{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.mui-content{
+    background: #EEEEEE;
+    padding-bottom:.51rem;;
+}
+.share-top p{
+    font-size: .1rem;
+    color: white;
+    margin: 0;
+}
+.share-content p{
+    font-size: .13rem;
+    color: black;
+    line-height: .2rem;
+}
+.share-content span{
+    font-size: .1rem;
+}
+.share-content img{
+    width: 100%;
+}
+.share-content{
+    padding: 5%;
+}
+.bottom-btn span{
+    width: 50%;
+    height: .5rem;
+    display: inline-block;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: .5rem;
+    color: #E63955;
+    font-size: .2rem;
+}
+.bottom-btn span:nth-child(2){
+    background: #E63955;
+    color: white;
+    right: 0;
+}
+.share-content p:nth-child(1){
+    margin-bottom: -1px;
+}
+.share-tip{
+    position: absolute;
+    right: -4px;
+    top:-10px;
+    display: inline-block;
+    padding: 5px;
+    background: #E63955;
+    border-radius: 15px 0 0 15px;
+}
+.share-but{box-shadow: 0 -2px 4px #d7d7d7;  overflow: hidden;  width: 100%;  height: 0.5rem;  bottom: 0;  left: 0;  position: fixed; font-family: "microsoft yahei"}
+.share-but .share-good{width:50%; height: 0.5rem; line-height: 0.5rem; background: #fff; text-align: center; display: inline; float: left; font-size: 15px; color:#4c4c4c}
+.share-but .share-goodbuy{width:50%; height: 0.5rem; line-height: 0.5rem; color:#fff; background: #DE2D4F; text-align: center; display: block; float: left; }
+.share-good .admire-over{color:#cfcfcf}

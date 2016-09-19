@@ -1,0 +1,225 @@
+.g-body {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    _zoom: 1;
+}
+.g-wrap {
+    margin: 0 auto 10px;
+    padding: 0 10px;
+    width: 1200px;
+    position: relative;
+}
+.m-results .g-main {
+    width: 910px;
+}
+.m-results-revealList {
+    padding-top: 12px;
+}
+.g-main {
+    float: left;
+}
+.f-clear:after {
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+    font-size: 0px;
+    overflow: hidden;
+    content: ".";
+}
+.publish_Curtit {
+    height: 39px;
+    background: #fff;
+    border-bottom: #888 2px solid;
+}
+.w-revealList {
+    width: 922px;
+}
+.w-revealList li {
+    display: inline;
+}
+.w-revealList-item {
+    margin: 0 11px 10px 0;
+    float: left;
+    width: 294px;
+    height: 420px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    position: relative;
+}
+.w-revealList-item .w-goods-info {
+    padding: 20px 20px 10px;
+    background: #fff;
+    _zoom: 1;
+}
+.w-revealList-item .w-countdown, .w-revealList-item .w-record {
+    padding: 20px;
+}
+.w-record-avatar, .w-record-goods {
+    float: left;
+    margin-top: 5px;
+}
+.w-record-avatar img{width:40px; height:40px; border-radius: 50%; -webkit-border-radius: 50%; border: 1px solid #ccc}
+.w-revealList-item .w-record-detail {
+    margin-left: 50px;
+}
+.w-record-detail {
+    line-height: 22px;
+}
+.w-revealList-item .w-record p {
+    line-height: 18px;
+}
+.f-breakword {
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.m-results .g-side {
+    width: 270px;
+    margin-top: 51px;
+}
+.g-side {
+    float: right;
+}
+.w-revealList-item .w-goods-title {
+    width: 100%;
+}
+.f-txtabb {
+    margin:8px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.m-results-leastRemain .w-goods-ing .w-goods-price, .m-results-leastRemain {
+    margin-bottom: 5px;
+}
+.m-results-leastRemain {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+.m-results-leastRemain-title {
+    padding-left: 22px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #666633;
+    background-color: #e3e3e3;
+    background: -webkit-gradient(linear,left top,left bottom,from(#f0f0f0),to(#e3e3e3));
+    background: -moz-linear-gradient(top,#f0f0f0,#e3e3e3);
+    background: -o-linear-gradient(top,#f0f0f0,#e3e3e3);
+    background: -ms-linear-gradient(top,#f0f0f0,#e3e3e3);
+}
+.m-results-leastRemain-title-ft {
+    position: relative;
+    z-index: 1;
+    height: 4px;
+    overflow: hidden;
+    background-position: 0 -8px;
+    background-repeat: repeat-x;
+}
+.m-results-leastRemain-main {
+    padding: 0px 0px 20px 0px;
+}
+.w-remainList-item {
+    margin-bottom: 10px;
+    padding: 20px 24px;
+    position: relative;
+    background: #ffffff;
+}
+.m-results-leastRemain .w-goods-ing {
+    height: 320px;
+}
+.w-goods-ing {
+    width: 200px;
+    height: 353px;
+    overflow: hidden;
+}
+.w-goods-ing .w-goods-pic {
+    margin-bottom: 8px;
+}
+.m-results-leastRemain .w-goods-ing .w-goods-pic img {
+    width: 160px;
+    height: 140px;
+}
+.w-goods-ing .w-goods-pic img {
+    margin: 0 auto;
+}
+.clock-container{
+    width: 180px;
+    height: 73px;
+    background: #FE0100;
+    padding-top: 1px;
+    margin: auto;
+}
+.clock-container p{
+    color: white;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 13px;
+}
+.clock-container i{
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    background: white;
+    color:#FE0100;
+    font-size: 24px;
+    text-align: center;
+
+}
+.clock-container span{
+    color: white;
+    font-size: 24px;
+}
+.clock_div{
+    text-align: center;
+    margin: auto 0;
+}
+.clock-bac{
+    width: 266px;
+    height: 99px;
+    background: white;
+    padding-top: 25px;
+}
+.buy_pre{
+    padding: 14px;
+
+}
+.detail-btn{
+    width:175px;
+    height: 37px;
+    background:#FE0100;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: none;
+    cursor: pointer;
+}
+.detail-btn a{
+    font-size: 17px;
+    font-family: "Microsoft Yahei", simhei;
+    color: white;
+    line-height: 37px;
+
+}
+.pay_back_bac{
+    width:173px;
+    height: 35px;
+    background: white;
+    text-align: center;
+    border: 1px solid #E2E2E2;
+    margin-top: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pay_back_bac a{
+    line-height: 37px;
+    font-size: 16px;
+    color: #FE0100;
+}
+

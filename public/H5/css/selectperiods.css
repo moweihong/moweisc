@@ -1,0 +1,69 @@
+@media screen and (min-width: 414px) {
+    html{
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 414px) {
+    html{
+        font-size: 100px;
+    }
+}
+.mui-search{
+    margin: 10px 0;
+    padding-left: 15px;
+}
+.search-div{
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    background: #E8E8E8;
+    border-radius: 5px;
+    position: relative;
+}
+.search-div img{
+    position: absolute;
+    width: 21px;
+    top: 5px;
+    left: 8px;
+}
+.search-div input{
+    background: white;
+    border: none;
+    height: 30px;
+    padding-left: 30px;
+    font-size: .1rem;
+}
+.search-btn input{
+    width: 70px;
+    background: #E63955;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+li{
+    width:30%;
+    height: 40px;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px;
+    font-size: .1rem;
+    color: #B2B2B2;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 1%;
+    overflow: hidden;
+}
+ul{
+    padding-left: 0.05rem;
+}
+.active{
+    border: 1px solid #E63955;
+
+}
+.active a{color: #E63955;}
+.mui-content{
+    background:#EEEEEE;
+}

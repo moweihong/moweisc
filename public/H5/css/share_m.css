@@ -1,0 +1,123 @@
+html{
+    font-size: 100px;
+}
+.mui-content{
+    background: white;
+}
+.tab-title{
+border-bottom: 1px solid #EEEEEE;
+}
+.tab-title span{
+    display: inline-block;
+    width: 49.2%;
+    text-align: center;
+    line-height: 40px;
+}
+.shai-item{
+    padding: 15px 0 5px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.shai-detail img{
+    width: 40px;
+    height: 40px;
+}
+.shai-desc{
+    width: 80%;
+    display: inline-block;
+    vertical-align: 3px;
+}
+.shai-desc span:nth-child(1){
+    font-size: .15rem;
+    color: #0173FE;
+    width: 57%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shai-desc span:nth-child(2){
+    font-size: .1rem;
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+}
+.shai-desc p{
+    font-size: .1rem;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+.shai-photo{
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.shai-img{
+    width: 80%;
+    margin-left: 20%;
+}
+.shai-img img{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 15px;
+}
+.love-ioc-bg{
+    text-align: right;
+    font-size: .1rem;
+    color: grey;
+}
+.love-ioc-bg .mui-icon {
+    font-size: 15px;
+}
+.love-ioc-bg b{
+    color: #e63955;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.love-ioc-bg .ico-loveit{
+    display: inline-block;
+    padding:8px 5px;
+}
+.ico-loveit .love-ioc{}
+.love-ioc-bg .add-num{
+    margin: 0;
+    vertical-align: 8px;
+}
+
+.love-ioc{
+    width: 23px;
+    height: 20px;
+    display: inline-block;
+    background: url("../images/love-ioc-group.png") 0 0 no-repeat;
+    zoom: .6;
+    vertical-align: middle;
+}
+
+
+.love-ioc-bg .active,.add-detail .active{
+   background: url("../images/love-ioc-group.png")-41px 0 no-repeat;
+}
+.add-detail{
+    width: 76%;
+    margin-left: 20%;
+    background: #E8E8E8;
+    padding-left: 5px;
+}
+.add-detail span{
+    font-size: .1rem;
+    color: #e63955;
+}
+.tab-active{
+    color: #E63955;
+    border-bottom: 3px solid #E63955;
+}
+#mui-icon{
+    position: absolute;
+    right: 8px;
+}
+.admire_num{
+	padding-left: .03rem;
+}
+

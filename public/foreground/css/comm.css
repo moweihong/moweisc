@@ -1,0 +1,81 @@
+﻿/*全局css样式公用*/
+a,body,caption,dd,div,dl,dt,em,form,h1,h2,h3,h4,h5,h6,html,img,label,li,p,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul{margin:0;padding:0}
+.cbody{position:relative;margin:0 auto;width:982px;background:#fff}
+input,select,textarea{vertical-align:middle}
+img{border:0}
+li,ul{list-style-type:none}
+a:link,a:visited{text-decoration:none}
+a:hover{color:#ed0909}
+.overhide{overflow:hidden;text-indent:-100em}
+.clear{clear:both}
+.clearfix:after{clear:both;display:block;visibility:hidden;width:0;height:0;content:' ';font-size:0;line-height:0}
+.clearfix{zoom:1}
+.f-lef{float:left; display:inline;}
+.f-rig{float:right; display:inline;}
+
+/*全局模板*/
+.width1210{width:1210px; margin-left:auto; margin-right: auto;}
+.w1200{width:1200px; margin-left:auto; margin-right: auto;}
+.w1198{width:1200px; margin-left:auto; margin-right: auto;}
+
+/*分页*/
+.f-tran{font-family:"microsoft yehei"}
+a{outline:medium none;text-decoration:none}
+em,i{font-style:normal;font-weight:400}
+input{box-sizing:content-box;font-size:100%}
+.pageStr{clear:both;font-size:14px;height:31px;text-align:center;margin:40px auto}
+.pageStr span{color:#999;height:31px;line-height:31px;margin:0 4px}
+.pageStr span a{border:1px solid #e4e4e4;color:#999;cursor:pointer;display:inline-block;height:29px;line-height:29px;padding:0 10px;text-align:center}
+.pageStr span.current a{background:#FE0100 none repeat scroll 0 0;border:1px solid #FE0100;color:#fff;font-weight:700}
+.pageStr span.current a:hover{color:#fff}
+.pageStr span a:hover{border:1px solid #FE0100;color:#FE0100}
+.pageStr span.f-noClick a{background:#f4f4f4 none repeat scroll 0 0;color:#cbcbcb;cursor:default}
+.pageStr span.f-noClick a:hover{border:1px solid #e6e6e6;color:#cbcbcb}
+.pageStr span em{margin:0 3px}
+.pageStr span input{background:#f9f9f9 none repeat scroll 0 0;border-color:#bfbfbf #e6e6e6 #e6e6e6 #bfbfbf;border-style:solid;border-width:1px;color:#9d9d9d;height:29px;line-height:29px;margin-right:3px;position:relative;text-align:center;width:45px}
+.f-tran-next{margin-left:5px}
+.f-tran-prev{margin-right:5px}
+.f-mar-left{margin-left:10px!important}
+
+/*2016.8.10 新新手指引*/
+.newer-guide-wrap{background: #5232dd;}
+.newer-guide{padding-top:100px; background: #3b95f1;}
+.guide-p{position: relative;}
+.guide-png{background:url(../img/guide/guidepng.png) no-repeat;}
+.guide-img{background:url(../img/guide/guidejpg.jpg) no-repeat;}
+
+.guide-p1{height: 469px;}
+.guide-p1-img{width:1283px; height: 469px; display: block; position: absolute; top:0px; left:-49px; background-position: 0px 0px;}
+.guide-p2{margin-top: 90px; }
+.guide-p2 .guide-p2-img1{height:510px; display: block;}
+.guide-p2 .guide-p2-img2{height:551px; display: block; background-position: 0px -510px;}
+.guide-p3{height: 717px; background-position: 0px -1061px;}
+.guide-p4{margin-top:38px; height: 700px; background-position: 0px -1778px;}
+.guide-p4-button{width:190px; height: 52px; display: block; position: absolute; top:542px; right: 378px;}
+.guide-p5{padding-bottom: 280px;}
+.guide-p5 .guide-p5-img1{height: 344px; display: block; background-position: 0px -2478px;}
+.guide-p5 .guide-p5-ico1{width: 157px; height: 47px; display: block; position: absolute; bottom: 132px; left:0px; background-position: 0px -471px;}
+.guide-p5 .guide-p5-ico2{width: 157px; height: 47px; display: block; position: absolute; bottom: 27px; right:0px; background-position: -159px -471px;}
+.guide-p5 .guide-product{width:1076px; margin: -1px auto 0px; padding:10px 0px 40px 10px; background: #fa9b15; overflow: hidden;}
+.guide-product ul li{width:222px; float: left; display: inline; padding: 0px 15px 20px; margin-left: 10px; background: #fff;}
+.guide-product .g-proimg{width:160px; height: 160px; margin: 15px auto 15px;}
+.g-proimg a img{transition:transform 0.2s linear;}
+.g-proimg a:hover img{-webkit-transform: translateX(8px); transform: translateX(8px);}
+.guide-product .g-protit{height:26px; line-height: 26px; overflow: hidden;}
+.guide-product .g-proyuanjia{color:#b5b5b6}
+.guide-product .g-proprogress{width:222px; height:28px; margin-top: 5px; position: relative;}
+.guide-product .g-progress-ico{width:56px; height: 18px; line-height: 18px; display: block; text-align: center; color:#fff; font-size: 10px; position: absolute; top:-23px; right: 20px; background: #ff0000;}
+.g-progress-ico:after{width:0;height:0; display:block; content: ''; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #ff0000; position: absolute; left:5px; bottom:-3px;}
+.guide-product .g-progress-wrap{width:222px; height: 5px; font-size: 5px; background: #d3d3d4;}
+.g-progress-wrap .g-progress-red{height: 5px; font-size: 5px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#ff934b',endColorStr='#ff6601',gradientType='1');
+    background: -moz-linear-gradient(0deg,#ff934b,#ff6601);
+    background: -webkit-gradient(linear,0% 0,100% 0,from(#ff934b),to(#ED0909));
+    background: -ms-linear-gradient(left,#ff934b 0,#ff6601 100%);
+    background: -o-linear-gradient(0deg,#ff934b,#ff6601);}
+.g-proprogress .g-progress-number{display: block; position: absolute; top:8px; left:0px; color:#ff0000}
+.g-proprogress .g-progress-total{display: block; width: 62px; position: absolute;  text-align: center; top:8px; left:80px; color:#333333}
+.g-proprogress .g-progress-last{display: block; position: absolute;  top:8px; right:0px; color:#5ab7fd}
+.g-buybutton{height:32px; margin-top: 16px;}
+.g-buybutton .g-buy-go{width:118px; height: 32px; line-height:32px; margin-left: 18px; float: left; display: block; text-align: center; color:#fff; background: #ff0000; border-radius: 3px; -webkit-border-radius: 3px;}
+.g-buybutton .g-buy-cart{width:50px; height: 32px; display: block; float: left; margin-left: 10px;  border-radius: 3px; -webkit-border-radius: 3px; background-position: -1270px 4px; background-color: #fc9615;}

@@ -1,0 +1,93 @@
+.mui-bar-nav ~ .mui-content {
+    padding-top: 44px;
+}
+
+html{
+    font-size: 100px;
+}
+.btn_group div{
+    width: 60px;
+}
+.select-item{
+    height: 40px;
+    padding-top: 5px;
+    font-size: .14rem;
+}
+.address-info{
+    border-bottom: 1px solid #EAEAEA;
+    padding: 2px 13px;
+}
+
+.mui-input-row label {
+    width: 25%;
+    padding: 18px 0;
+    padding-left: 15px;
+}
+.confirm-button{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    left: 5%;
+}
+.delete{
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.address-info span{
+    display: inline-block;
+    width: 47%;
+    font-size: .15rem;
+    padding: 8px 0;
+}
+.address-info span:nth-child(2){
+    text-align: right;
+}
+
+.address-info p{
+    font-size: .1rem;
+}
+.mui-radio input[type='radio']{
+    top: 3px;
+    left: 8px;
+}
+.mui-radio input[type='radio']:before{
+    font-size: 20px;
+}
+.mui-radio input[type='radio']:checked:before{
+    color: red;
+}
+
+.mui-radio{
+    width: 50%;
+    display: inline-block;
+}
+.mui-radio span{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 4px;
+    font-size: 0.14rem;
+}
+.btn_group{
+    display: inline-block;
+    width: 47%;
+    text-align: right;
+}
+
+.btn_group div{
+    display: inline-block;
+    border: 1px solid #e63955;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #e63955;
+}
+
+.cell{
+    border-bottom: 10px solid #EEEEEE;
+}
+.cell:last-child{
+    border-bottom:none;
+}

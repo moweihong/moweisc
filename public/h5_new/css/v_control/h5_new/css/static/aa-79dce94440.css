@@ -1,0 +1,154 @@
+html{font-size:100px}
+.dropload-up{top:50px}
+.menu-content{position:fixed;left:0;top:44px;width:100%}
+.menu-content ul{display:none;padding:15px 15px 0 15px;background-color:#eee}
+.menu-content ul li i{width:50px;height:50px;display:inline-block;vertical-align:middle;zoom:.7;margin-right:4px;background:url(../images/cat-allico.png) no-repeat}
+.menu-content ul .menu_img_all i{background-position:0 0}
+.menu-content ul .menu_img_phone i{background-position:0 -50px}
+.menu-content ul .menu_img_pc i{background-position:0 -100px}
+.menu-content ul .menu_img_food i{background-position:0 -150px}
+.menu-content ul .menu_img_outdoor i{background-position:0 -200px}
+.menu-content ul .menu_img_furnish i{background-position:0 -250px}
+.menu-content ul .menu_img_markup i{background-position:0 -300px}
+.menu-content ul .menu_img_luggage i{background-position:0 -350px}
+.menu-content ul .menu_img_car i{background-position:0 -400px}
+.menu-content ul .menu_img_invest i{background-position:0 -450px}
+.menu-content ul .menu_img_virtual i{background-position:0 -500px}
+/****/
+
+.menu-content ul .menu_img_all .active{background-position:-50px 0}
+.menu-content ul .menu_img_phone .active{background-position:-50px -50px}
+.menu-content ul .menu_img_pc .active{background-position:-50px -100px}
+.menu-content ul .menu_img_food .active{background-position:-50px -150px}
+.menu-content ul .menu_img_outdoor .active{background-position:-50px -200px}
+.menu-content ul .menu_img_furnish .active{background-position:-50px -250px}
+.menu-content ul .menu_img_markup .active{background-position:-50px -300px}
+.menu-content ul .menu_img_luggage .active{background-position:-50px -350px}
+.menu-content ul .menu_img_car .active{background-position:-50px -400px}
+.menu-content ul .menu_img_invest .active{background-position:-50px -450px}
+.menu-content ul .menu_img_virtual .active{background-position:-50px -500px}
+.active~a{color:#E63955}
+.menu-content ul li{display:inline-block;width:32%;margin-bottom:20px;font-size:.7em}
+.tab-menu{padding:10px 0;border-bottom:1px solid #df3051;background:#fff;font-size:.14rem}
+.tab-menu a{width:20%;position:relative;height:.28rem;line-height:.28rem;display:block;float:left;color:#666;text-align:center;font-family:"Microsoft YaHei"}
+.tab-menu a.active{color:#df3051}
+a.active .tmenu-line{width:50%;display:block;height:0;line-height:0;position:absolute;bottom:-.1rem;left:50%;margin-left:-25%;border-bottom:3px solid #df3051}
+.tab-list ul{padding-top:48px;margin-top:5px}
+.tab-list p{font-size:.14rem;color:#333;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-family:pingfang}
+.tab-list{font-size:.1rem;color:grey}
+.tab-list ul li{width:49%;padding:0 3%;display:inline-block;background:#fff;margin:3px 0}
+.phone-img{width:1.3rem;height:1.3rem;margin:.21rem auto;display:block}
+.progress-bar{width:100%;height:8px;background:#E8E8E8;border-radius:5px}
+.inner-progress-bar{width:80%;height:7px;background:red;border-radius:5px;max-width:100%}
+.bar-contain{display:inline-block;width:76%;color:#a3a3a3;font-family:Microsoft YaHei}
+.bar-contain span{color:red;margin-left:5px}
+.car-img{width:20%}
+.header-right{color:#fff;float:right;margin-top:10px;font-size:16px}
+#menu-btn{display:inline-block}
+
+html{
+    font-size: 100px;
+}
+.title-item{
+    background: #999999;
+}
+.title-item span{
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 0.15rem;
+}
+.content-item{
+    color: grey;
+    font-size: 0.1rem;
+    background: #EEEEEE;
+}
+.content-item p{
+    margin:0px auto;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.content-item ul{
+    padding: 0;
+}
+.content-item table{
+    width: 100%;
+}
+.content-item tr{
+    border-bottom: 1px solid #E9E9E9;
+}
+.content-item tr td{
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    padding: 5px 0;
+}
+.v-align{
+    vertical-align: middle;
+}
+.num-red{
+    color: #e63955;
+}
+ul{
+    padding: 0;
+}
+li:nth-child(3){
+    width: 41%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 0.1rem;
+    margin-right: 5px;
+}
+.rule-top i{
+    background: white;
+    font-style: normal;
+    display: inline-block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+
+}
+.rule-top span{
+    display: inline-block;
+    color: #e63955;
+    margin-top: 16px;
+
+}
+.line{
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 5%;
+}
+.rule-desc{
+    background:  #e63955;
+    padding: 10px 0 20px 20px;
+
+}
+.rule-desc p{
+    color: white;
+    font-size: 0.1rem;
+}
+.rule-desc .how{
+    font-size:0.15rem;
+}
+.rule-gs{
+    width: 100%;
+     height: 82px;
+    border: 2px dashed;
+    text-align: center;
+    border-radius: 5px;
+    margin-top:4px;
+    padding-top: 5px;
+}
+.rule-gs p:nth-child(2){    vertical-align: middle;}
+.fetch_remain{  float: left;   text-align: center;padding-top: 20px; font-size: 0.1rem;}
+.rule-gs-in{width: 81px;float: left;}
+.rule-gs-in-ct{margin: 0 auto;display: inline-block;*display: inline;*zoom:1;}

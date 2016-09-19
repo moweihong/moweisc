@@ -1,0 +1,60 @@
+html{
+    font-size: 100px;
+}
+.img-show{
+    width: 33%;
+    display: inline-block;
+text-align: center;
+}
+.img-show img{
+    width: 38%;
+}
+.good-publish .p-title{
+    font-size: 0.15rem;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+}
+.good-publish{
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+}
+.good-publish p{
+    font-size:0.08rem;
+    line-height: 15px;
+}
+.good-show{
+    padding-top: 20px;
+}
+.lucky-num{
+    width: 90%;
+    background: #e63955;
+    font-size: 0.16rem;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.code-record{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 0.1rem;
+}
+.code-record ul{
+    padding:0;
+}
+.code-record li{
+    list-style: none;
+    display: inline-block;
+    width: 22%;
+    margin-right: 7px;
+    font-size: 0.1rem;
+    color: grey;
+}
+.code-record .active,.code-record span{
+    color:#e63955;
+}
